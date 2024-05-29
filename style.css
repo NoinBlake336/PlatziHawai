@@ -1,0 +1,129 @@
+.btn-platzi{
+    background-color: #97c93e;
+    color: white;
+    
+}
+
+.btn-platzi:hover{
+    background-color: #82ad36;
+}
+
+#footer{
+    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
+}
+
+#footer a{
+    color: white;
+}
+
+#header img
+{
+    width: 80px;
+    object-fit: cover;
+}
+.text-platzi{
+    color: #97c93e !important;
+}
+
+main img{
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(60%);
+}
+#carouselExampleIndicators{
+    position: relative;
+}
+#carouselExampleIndicators .overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+
+.overlay .container, .overlay .row{
+height: 100%;
+}
+
+#speakers img
+{   
+    
+    height: 450px;
+    object-fit: cover;
+    
+}
+
+#speakers h5{
+    white-space: nowrap;
+}
+
+.btn-outline-success {
+    --bs-btn-color: #ffffff;
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-hover-border-color: #198754;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #198754;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #198754;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: none;
+}
+
+
+.card .contenedor-img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.8s ease;
+
+}
+.card .contenedor-img img{
+    height: 100%;
+    width: 100%;
+    transition: all 0.8s ease;
+
+   
+    
+}
+
+.card .contenedor-img img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+   
+   
+    
+}
+@media screen and (min-width:768px) {
+    header li a{
+        transition: all 0.8s ease !important;
+    }
+    header li:hover a{
+        transform:scale(1.2);
+        margin-left: 5px;
+        margin-right: 5px;
+        transition: all 0.8s linear;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header li a{
+        transition: all 0.8s ease !important;
+        
+    }
+    header li:active a{
+        margin-left: 30px;
+        transform:scale(1.1);
+        transition: all 0.8s linear;
+    }
+
+
+}
+
